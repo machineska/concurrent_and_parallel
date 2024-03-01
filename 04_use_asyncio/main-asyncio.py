@@ -41,8 +41,8 @@ async def transform(x):
     return result
 
 async def get_result():
-	r = await asyncio.gather(*(transform(x) for x in scientists))
-	return r
+    r = await asyncio.gather(*(transform(x) for x in scientists))
+    return r
 
 if __name__ == "__main__":
     start = time.time()

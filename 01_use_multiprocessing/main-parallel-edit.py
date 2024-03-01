@@ -29,7 +29,7 @@ print()
 
 def transform(x):
     print(f'Processing {os.getpid()} record {x.name}')
-    delay = 1 # random.randint(1, 5)
+    delay = 10 # random.randint(1, 5)
     time.sleep(delay)
     print(f'Delay with {delay} seconds..')
     result = {'name': x.name, 'age': 2023 - x.born}

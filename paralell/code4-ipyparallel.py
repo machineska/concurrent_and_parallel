@@ -3,6 +3,9 @@ import numpy as np
 from timebudget import timebudget
 import ipyparallel as ipp
 
+# run onm terminal to start cluster
+# ipcluster start -n 10
+
 iterations_count = round(1e7)
 
 def complex_operation(input_index):
