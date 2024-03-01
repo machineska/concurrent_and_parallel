@@ -1,0 +1,5 @@
+# https://www.anyscale.com/blog/parallelizing-python-code
+timebudget
+numpy
+ipyparallel
+ray
